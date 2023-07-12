@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "uniapp rpx",
+  "description": "rpx translation of uniapp",
+  "version": "1.0",
+
+  "permissions": ["https://secure.flickr.com/"],
+  "browser_action": {
+    "default_icon": "/icon.png",
+    "default_popup": "index.html"
+  },
+  "content_security_policy": "script-src 'self' https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js;"
+}
